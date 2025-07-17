@@ -1,0 +1,29 @@
+
+
+.star-icon{
+  width:30px;
+  height: 30px;
+  stroke:#555;
+  transition: color 0.2s ease-in-out;
+  color:gray;
+}
+.star-icon .hovered{
+  fill:gold;
+  stroke: orangered;
+}
+.star-icon  .active{
+  fill:green;
+  stroke:darkslateblue;
+}
+.star-rating{
+  display: flex;
+  gap:3px;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  border:none;
+  background: none;
+  padding:0;
+}
